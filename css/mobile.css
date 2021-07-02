@@ -1,0 +1,35 @@
+.blogs-post-container h3 {
+    font-size: 30px;
+}
+
+.blogs-post-container .general-container {
+    display: grid;
+    grid-template-rows: 3fr;
+}
+.blogs-post-container .general-container .post-container {
+    margin: 15px auto;
+    max-width: 90%;
+}
+
+main .main-info-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr;
+}
+main .main-info-container .text-info-container h1{
+    font-size: 25px;
+}
+main .main-info-container .img-info-container {
+    margin: auto;
+    margin-top: 15px;
+}
+main .fencing-container .fencing-image-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 4fr;
+}
+main .fencing-container .fencing-image-container img {
+    margin-bottom: 15px;
+}
+main .contact-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr;
+}
