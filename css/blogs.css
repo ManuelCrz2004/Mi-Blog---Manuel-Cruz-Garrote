@@ -107,17 +107,17 @@ main .info-post-container h1 {
     font-size: 30px;
 }
 .blogs-post-container .general-container {
-    display: flex;
+    display: grid;
     margin: auto;
-    max-width: 15   80px;
-    margin: auto;
+    width: 95%;
+    grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
 }
 .blogs-post-container .post-container {
     display: inline-block;
-    margin-bottom: 50px;
+    margin: 50px 15px;
     padding-left: 10px;
-    max-width: 30%;
+    width: 90%;
     color: #3c4f58;
 }
 .blogs-post-container .post-container .tittle-container {

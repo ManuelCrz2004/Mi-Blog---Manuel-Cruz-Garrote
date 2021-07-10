@@ -1,0 +1,6 @@
+header .header-icon-container .icons {
+    margin-right: 10px;
+}
+.blogs-post-container .general-container {
+    grid-template-columns: 1fr;
+}
